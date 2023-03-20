@@ -1,3 +1,4 @@
+
 def solution(A, K):
 
     # array A with N integers, K is number of rotations 
@@ -15,11 +16,12 @@ def solution(A, K):
 
     return A
   
+def main():
+    test = solution([1, 2, 3, 4, 5], 3)
+    print(test)
   
 if __name__ == "__main__":
-  
- test = solution([1, 2, 3, 4, 5], 3)
- print(test)
+    main()
   
     
   
